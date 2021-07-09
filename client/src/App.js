@@ -1,23 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import Clock from './clock/Clock';
 
 function App() {
   return (
     <div className='App'>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
       <header class=''>
         <div class='top-left-corner'>
           <div class='links'>Links</div>
@@ -46,6 +32,7 @@ function App() {
         <div class='appcore'>
           <div class='clock'>
             <h1>22:22</h1>
+            <Clock />
             <div class='motd'>Good evening</div>
           </div>
           <form action=''>
