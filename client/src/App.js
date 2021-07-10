@@ -31,9 +31,7 @@ function App() {
       <main class=''>
         <div class='appcore'>
           <div class='clock'>
-            <h1>22:22</h1>
-            <Clock />
-            <div class='motd'>Good evening</div>
+            <Clock user={{ name: 'Boss' }} />
           </div>
           <form action=''>
             <label for='goal'>
